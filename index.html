@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Deven Hoilett | Mechanical Engineering Portfolio</title>
+<style>
+:root{--navy:#071b3a;--blue:#0868e8;--ink:#10223d;--muted:#62748d;--bg:#f4f7fb;--card:#fff;--line:#dce5f0}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.nav{position:sticky;top:0;z-index:10;background:rgba(244,247,251,.94);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.navin{max-width:1120px;margin:auto;padding:18px 28px;display:flex;justify-content:space-between;align-items:center}
+.brand{font-weight:900;letter-spacing:.08em;color:var(--navy)}
+.links{display:flex;gap:24px;color:var(--muted);font-weight:700;font-size:14px}
+.links a:hover{color:var(--blue)}
+main{max-width:1120px;margin:auto;padding:70px 28px 100px}
+.hero{display:grid;grid-template-columns:1.3fr .7fr;gap:50px;align-items:end;padding:40px 0 85px}
+.eyebrow{color:var(--blue);font-size:13px;font-weight:900;letter-spacing:.18em;text-transform:uppercase}
+.hero h1{font-size:clamp(48px,8vw,92px);line-height:.94;letter-spacing:-.06em;margin:14px 0 24px;color:var(--navy)}
+.hero p{font-size:19px;color:var(--muted);max-width:690px}
+.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}
+.btn{display:inline-block;padding:12px 18px;border-radius:999px;border:1px solid #cdd9e8;font-weight:800;background:white}
+.btn.primary{background:var(--blue);color:white;border-color:var(--blue)}
+section{margin-top:70px}
+.sectionhead{display:flex;justify-content:space-between;gap:30px;align-items:end;margin-bottom:26px}
+.sectionhead h2{font-size:42px;letter-spacing:-.04em;margin:5px 0;color:var(--navy)}
+.sectionhead p{max-width:500px;color:var(--muted);margin:0}
+.panel{background:white;border:1px solid var(--line);border-radius:20px;padding:30px}
+.feature{background:var(--card);border:1px solid var(--line);border-radius:26px;overflow:hidden;box-shadow:0 18px 55px rgba(20,50,90,.08)}
+.featuretop{display:grid;grid-template-columns:.9fr 1.1fr}
+.copy{padding:46px}
+.copy h3{font-size:34px;line-height:1.05;margin:10px 0 18px}
+.copy p{color:var(--muted)}
+.tags{display:flex;gap:8px;flex-wrap:wrap;margin-top:24px}
+.tag{font-size:13px;font-weight:800;color:#15539d;background:#edf5ff;border:1px solid #d4e6ff;padding:7px 11px;border-radius:999px}
+.heroimg{width:100%;height:100%;min-height:360px;object-fit:contain;background:#edf1f6}
+.gallery{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;padding:18px;background:#f7f9fc}
+.gallery figure{margin:0;background:white;border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.gallery img{display:block;width:100%;height:300px;object-fit:contain;background:#f0f3f7}
+.gallery figcaption{padding:12px 15px;font-size:13px;color:var(--muted);font-weight:700}
+.cadgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.cadcard{background:white;border:1px solid var(--line);border-radius:20px;overflow:hidden}
+.cadcard img{width:100%;height:350px;object-fit:contain;background:#eef2f6;display:block}
+.cadbody{padding:22px}
+.cadbody h3{margin:0 0 8px;font-size:23px}
+.cadbody p{margin:0;color:var(--muted)}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:30px}
+.panel h3{margin-top:0;color:var(--navy)}
+.skills{display:flex;flex-wrap:wrap;gap:10px}
+.skill{padding:9px 13px;border:1px solid var(--line);background:#f8fafc;border-radius:10px;font-weight:700;color:#29415f}
+.footer{max-width:1120px;margin:auto;padding:30px 28px 60px;color:var(--muted);font-size:13px;border-top:1px solid var(--line)}
+.note{font-size:13px;color:var(--muted);margin-top:10px}
+@media(max-width:800px){
+.hero,.featuretop,.about{grid-template-columns:1fr}
+.hero{padding-top:20px}.hero h1{font-size:58px}
+.sectionhead{display:block}.cadgrid{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}
+.gallery img,.cadcard img{height:auto}.links{gap:12px}.navin{padding:14px 18px}
+main{padding:45px 18px 70px}.copy{padding:30px}
+}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <div class="navin">
+    <a class="brand" href="#top">DEVEN HOILETT</a>
+    <div class="links">
+      <a href="#projects">Projects</a><a href="#about">About</a><a href="Deven_Hoilett_Resume.pdf">Resume</a><a href="#contact">Contact</a>
+    </div>
+  </div>
+</nav>
+
+<main id="top">
+<header class="hero">
+  <div>
+    <div class="eyebrow">Mechanical Engineering · UCF</div>
+    <h1>Building,<br>modeling,<br>and learning.</h1>
+    <p>Mechanical Engineering student developing experience across CAD, computational simulation, numerical methods, and experimental engineering.</p>
+    <div class="actions">
+      <a class="btn primary" href="#projects">View Projects</a>
+      <a class="btn" href="Deven_Hoilett_Resume.pdf">View Resume</a>
+    </div>
+  </div>
+  <div class="panel">
+    <div class="eyebrow">Current toolkit</div>
+    <p><strong>Design:</strong> SolidWorks</p>
+    <p><strong>Simulation:</strong> ANSYS Fluent</p>
+    <p><strong>Computation:</strong> MATLAB, Python, C</p>
+    <p><strong>Experiment:</strong> LabVIEW</p>
+  </div>
+</header>
+
+<section id="projects">
+<div class="sectionhead">
+  <div><div class="eyebrow">Featured project</div><h2>CFD / ANSYS Fluent</h2></div>
+  <p>A 2D internal-flow simulation using computational geometry, meshing, and pressure/velocity field analysis.</p>
+</div>
+
+<div class="feature">
+  <div class="featuretop">
+    <div class="copy">
+      <div class="eyebrow">Academic project</div>
+      <h3>Internal Flow Simulation</h3>
+      <p>Developed and evaluated a 2D computational model for internal flow. The work included geometry definition, mesh generation, fluid properties, boundary conditions, operating parameters, Reynolds-number calculations, and comparison of simulated behavior with fluid-mechanics expectations.</p>
+      <div class="tags">
+        <span class="tag">ANSYS Fluent</span><span class="tag">CFD</span><span class="tag">Fluid Mechanics</span><span class="tag">2D Simulation</span>
+      </div>
+    </div>
+    <img class="heroimg" src="assets/fluent-velocity.png" alt="ANSYS Fluent velocity magnitude contour">
+  </div>
+
+  <div class="gallery">
+    <figure><img src="assets/fluent-geometry.png" alt="Dimensioned computational geometry"><figcaption>Computational geometry and dimensions</figcaption></figure>
+    <figure><img src="assets/fluent-mesh.png" alt="Computational mesh"><figcaption>Computational mesh</figcaption></figure>
+    <figure><img src="assets/fluent-static-pressure.png" alt="Static pressure contour"><figcaption>Static pressure distribution</figcaption></figure>
+    <figure><img src="assets/fluent-dynamic-pressure.png" alt="Dynamic pressure contour"><figcaption>Dynamic pressure distribution</figcaption></figure>
+    <figure><img src="assets/fluent-velocity.png" alt="Velocity magnitude contour"><figcaption>Velocity magnitude</figcaption></figure>
+  </div>
+</div>
+</section>
+
+<section>
+<div class="sectionhead">
+  <div><div class="eyebrow">Mechanical design</div><h2>SolidWorks CAD</h2></div>
+  <p>A collection of academic CAD exercises demonstrating parametric modeling, detailed geometry, assemblies, and dimensioning.</p>
+</div>
+<div class="cadgrid">
+  <div class="cadcard"><img src="assets/cad-01.png" alt="SolidWorks mechanical component"><div class="cadbody"><div class="eyebrow">CAD project 01</div><h3>Mechanical Component &amp; Fixture Design</h3><p>Detailed parametric mechanical geometry with feature-based modeling and dimensioning.</p></div></div>
+  <div class="cadcard"><img src="assets/cad-02.png" alt="SolidWorks linkage assembly"><div class="cadbody"><div class="eyebrow">CAD project 02</div><h3>Mechanical Linkage Assembly</h3><p>Multi-component linkage modeled and assembled with connected mechanical members.</p></div></div>
+  <div class="cadcard"><img src="assets/cad-03.png" alt="SolidWorks mechanical assembly"><div class="cadbody"><div class="eyebrow">CAD project 03</div><h3>Mechanical Assembly &amp; Actuation</h3><p>Multi-feature mechanical assembly incorporating cylindrical features and interacting components.</p></div></div>
+  <div class="cadcard"><img src="assets/cad-04.png" alt="SolidWorks bracket assembly"><div class="cadbody"><div class="eyebrow">CAD project 04</div><h3>Mechanical Bracket Assembly</h3><p>Detailed bracket-style assembly developed with parametric dimensions and feature-based design.</p></div></div>
+</div>
+</section>
+
+<section id="about">
+<div class="sectionhead"><div><div class="eyebrow">About</div><h2>Engineering student, still building.</h2></div></div>
+<div class="about">
+  <div class="panel">
+    <h3>About me</h3>
+    <p>I'm Deven Hoilett, a Mechanical Engineering student at the University of Central Florida. I'm building my engineering experience through hands-on coursework in mechanical design, fluid mechanics, materials, measurements, numerical methods, and electrical engineering.</p>
+    <p>This portfolio is a living collection of academic work and projects as I continue developing as an engineer.</p>
+  </div>
+  <div class="panel">
+    <h3>Technical skills</h3>
+    <div class="skills">
+      <span class="skill">SolidWorks</span><span class="skill">ANSYS Fluent</span><span class="skill">MATLAB</span><span class="skill">LabVIEW</span><span class="skill">Python</span><span class="skill">C</span><span class="skill">Excel</span>
+    </div>
+    <p class="note">Additional MATLAB and measurement projects can be added as you collect the files from your PC.</p>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="panel">
+  <div class="eyebrow">Contact</div>
+  <h2 style="margin:8px 0">Let's connect.</h2>
+  <p style="color:var(--muted)">For internship opportunities, engineering projects, or collaboration:</p>
+  <p><strong>Email:</strong> <a href="mailto:dhoilett04@gmail.com">dhoilett04@gmail.com</a></p>
+  <p><strong>Location:</strong> Orlando, FL</p>
+  <p><a class="btn primary" href="mailto:dhoilett04@gmail.com">Email me</a></p>
+</div>
+</section>
+</main>
+
+<footer class="footer">© 2026 Deven Hoilett · Mechanical Engineering Portfolio</footer>
+</body>
+</html>
